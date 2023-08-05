@@ -1,0 +1,105 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    text-align: center;
+    background-color: #006d77;
+    padding: 20px;
+
+}
+
+.logo {
+    text-align: center;
+    height: 50px;
+    width: auto;
+}
+
+.volver {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 59);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.contenedorBotones {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 24px 25px;
+    font-size: 1.4rem;
+    position: relative;
+    margin: 20px;
+    background-color: #ee6c4d;
+    border-radius: 15px
+}
+
+.btn-1{
+    margin-top: 80px;
+}
+
+/* DISEÑO CAJAS MODELOS */
+
+.todosLosModelos {
+    font-family: 'Josefin Sans', sans-serif;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelos {
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+}
+
+.ip {
+    background-color: #f27059;
+    color: #22333b;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1rem;
+    position: relative;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.cuotas {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    color: #43aa8b;
+}
+
+.descuento {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    color: #43aa8b;
+}
