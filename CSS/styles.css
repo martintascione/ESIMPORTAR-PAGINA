@@ -1,8 +1,11 @@
+
+
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
+
 
 
 .menu {
@@ -12,10 +15,17 @@
 
 }
 
+
+
 .logo {
     text-align: center;
     height: 50px;
     width: auto;
+}
+
+.imagen {
+    border-radius: 20px;
+    height: 150px;
 }
 
 .volver {
@@ -25,6 +35,51 @@
     text-decoration: none;
     padding: 20px;
 }
+
+.ofertaT{
+    font-size: 1.2rem;
+}
+.titu {
+    margin-top: 30px;
+    margin-bottom: 10px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.cotdolar {
+    text-align: center;   
+}
+
+.titu2 {
+    font-size: 15px;
+    text-align: center;
+}
+.reco1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 59);
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.reco {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 59);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.reco2 {
+    margin-top: -30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 59);
+    text-decoration: none;
+    padding: 20px;
+}
+
 
 .contenedorBotones {
     min-height: 50vh;
@@ -43,19 +98,59 @@
     color: white;
     text-decoration: none;
     text-align: center;
+    background-color: #ee6c4d;
+    position: relative;
     padding: 24px 25px;
     font-size: 1.4rem;
-    position: relative;
     margin: 20px;
-    background-color: #ee6c4d;
-    border-radius: 15px
+    border-radius: 20px
 }
 
-.btn-1{
-    margin-top: 80px;
+
+.btn-1 {
+    margin-top: 40px;
 }
+
+.btn-33 {
+    margin-top: -200px;
+}
+
+.btn-6 {
+    color: #0f4145;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background-color: #33cc33a7;
+    margin: 20px;
+    padding: 24px 25px;
+    font-size: 1.4rem;
+    border-radius: 15px;
+    
+}
+
+
+.cot{
+    padding: 5px 10px;
+    background-color: #43aa8b;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.textcot{
+font-size:0.7rem;
+text-align: center;
+color: aliceblue;
+margin: 7px;
+}
+
+.c{
+    padding: 20px;
+}
+
 
 /* DISEÑO CAJAS MODELOS */
+
+
 
 .todosLosModelos {
     font-family: 'Josefin Sans', sans-serif;
@@ -72,17 +167,35 @@
 
 }
 
+.titulo {
+    font-size: 1.5rem;
+}
+
+.max {
+    font-size: 1.5rem;
+}
+
 .ip {
     background-color: #f27059;
     color: #22333b;
     text-decoration: none;
-    padding: 20px 50px;
-    font-size: 1rem;
+    padding: 20px 20px;
+    font-size: 0.9rem;
     position: relative;
-    margin: 15px;
+    margin: 20px;
     border-radius: 10px;
 }
 
+.preciolista {
+    font-size: 1rem;
+    margin-top: 5px;
+    
+}
+
+.oferta{
+    margin-top: 5px;
+    color: azure;
+}
 
 .cuotas {
     font-size: 1rem;
@@ -94,6 +207,13 @@
     color: #43aa8b;
 }
 
+.pesos1{
+margin-top: 5px;
+}
+.pesos2{
+margin-top: 5px;
+}
+
 .descuento {
     font-size: 1rem;
     text-align: center;
@@ -103,3 +223,4 @@
     border-radius: 50px;
     color: #43aa8b;
 }
+
