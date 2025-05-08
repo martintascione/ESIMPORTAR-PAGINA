@@ -39,21 +39,48 @@
 .ofertaT{
     font-size: 1.2rem;
 }
-.titu {
+.titul {
     margin-top: 30px;
     margin-bottom: 10px;
    font-size: 20px;
    text-align: center;
 }
 
+.titulos{
+margin: 10px;
+text-align: center;
+}
+
+.subtitulo {
+    font-size: 14.4px;
+    text-align: center;
+}
+
+.titu3{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.textcot{
+    font-size:12.8px;
+    text-align: center;
+    color: aliceblue;
+    margin: 7px;
+}
+
+.cot{
+    padding: 5px 10px;
+    background-color: #43aa8b;
+    border-radius: 10px;
+    margin: 3px;
+}
 .cotdolar {
     text-align: center;   
 }
 
-.titu2 {
-    font-size: 15px;
-    text-align: center;
-}
+
+
 .reco1 {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -129,23 +156,7 @@
 }
 
 
-.cot{
-    padding: 5px 10px;
-    background-color: #43aa8b;
-    border-radius: 10px;
-    margin: 3px;
-}
 
-.textcot{
-font-size:0.7rem;
-text-align: center;
-color: aliceblue;
-margin: 7px;
-}
-
-.c{
-    padding: 20px;
-}
 
 
 /* DISEÑO CAJAS MODELOS */
@@ -224,3 +235,52 @@ margin-top: 5px;
     color: #43aa8b;
 }
 
+@media (max-width: 766px){
+
+    .titulos{
+        text-align: center;
+        font-size: 14.4px;
+    }
+
+    .titu{
+        text-align: center;
+        font-size: 20.8px;
+        margin-bottom: 10px;
+    }
+
+ 
+    .subtitulo {
+      font-size: 14.4px;
+      text-align: center;
+    }
+
+
+    .c{
+        text-align: center;
+    }
+
+    .textcot{
+        font-size: 10.4px;
+        text-align: center;
+    }
+
+    .cot{
+            padding: 10px 5px;
+            background-color: #43aa8b;
+            border-radius: 10px;
+            margin: 0px;
+    }
+}
+
+@media (max-width: 320px){
+    .h1 .subtitulo{
+        text-align: center;
+        margin-left: 79px;
+        font-size: 1rem;
+    }
+
+    .titulos{
+        text-align: center;
+        }
+
+}
